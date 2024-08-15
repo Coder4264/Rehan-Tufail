@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #0E1018;
+  background-image: url(../src/assets/bg-banner.png);
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat:round;
+  }
+
+  ::selection{
+    background-color: yellow;
+    color: red;
+  }
+  .navbar-container{
+    background-color: #000000;
+    border-radius: 20px;
+  }
+  .icons{
+    filter: invert(100%);
+    width: 18px;
+    height: 18px;
+  }
+
+  .link-title{
+    color: rgb(163, 163, 170);
+    font-size: ;
+    font-weight: 600;
+  }
+  .message, .link{
+    background-color: #0E1018;
+    padding: 12px;
+    border-radius: 7px;
+  }
+  .user-card-container{
+    background-color:#000000 ;
+
+  }
+  .card-button{
+    background-color: #0E1018;
+    border-radius: 10px;
+  }
+
+
+  
