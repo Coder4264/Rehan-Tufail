@@ -14,7 +14,7 @@ export default function Services() {
     },
     {
       "id" : 3,
-      "imgUrl" : "../public/design-code.png",
+      "imgUrl" : "/public/design-code.png",
       "title" : "Design to Code"
     },
     {
