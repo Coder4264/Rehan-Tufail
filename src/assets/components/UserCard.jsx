@@ -4,7 +4,7 @@ export default function UserCard() {
   return (
     <div className='h-full user-card-container p-7 rounded-2xl flex flex-col gap-5'>
       <div className='flex justify-center items-center'>
-      <img className='user-pic rounded-lg  w-auto h-80' src="../Public/Rehan DP.png" alt="" />
+      <img className='user-pic rounded-lg  w-auto h-80' src="/Rehan DP.png" alt="" />
       </div>
         <h2 className='text-slate-50 font-bold text-3xl'>Rehan Tufail</h2>
         <p className='text-slate-50 font- text-lg'>A Passionate Full Stack Developer 🖥️ & Product Designer having 3 years of Experiences over Freelance Platform.</p>
