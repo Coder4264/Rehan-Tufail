@@ -14,7 +14,7 @@ export default function Services() {
     },
     {
       "id" : 3,
-      "imgUrl" : "/public/design-code.png",
+      "imgUrl" : "https://cdn-icons-png.freepik.com/256/2621/2621226.png?semt=ais_hybrid",
       "title" : "Design to Code"
     },
     {
