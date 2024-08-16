@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Expertise() {
   return (
-    <div className='md:h-1/2 h-full w-full rounded-2xl bg-black text-white p-3'>
+    <div className='md:h-full h-full w-full rounded-2xl bg-black text-white p-3'>
         <h1 className='text-3xl text-white font-bold py-2'>My Expert Area</h1>
         <div className='expertise-container flex justify-evenly items-center flex-wrap gap-4 mt-5' >
             <div className='expertise flex flex-col justify-center text-center md:w-28 w-full mb-5'>
