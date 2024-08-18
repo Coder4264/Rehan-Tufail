@@ -8,7 +8,7 @@ export default function RecentProjects() {
                 <div className='project-header flex md:flex-row flex-col md:items-center md:justify-between md:mb-0 mb-10'>
                     <h2 className='text-3xl text-white font-bold p-2  inline'>Recent Projects</h2>
                     <Link to="/Projects">
-                    <p className='flex items-center justify-center gap-2 text-blue-500 text-md md:self-center self-end'>All Projects  <img className='w-4 h-4 ' src="https://cdn-icons-png.flaticon.com/128/758/758811.png" alt="" /></p>
+                    <p className='flex items-center justify-end gap-2 text-blue-500 text-md md:self-center self-end'>All Projects  <img className='w-4 h-4 ' src="https://cdn-icons-png.flaticon.com/128/758/758811.png" alt="" /></p>
                 </Link>
                     </div>
 
