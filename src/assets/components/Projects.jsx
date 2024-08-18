@@ -89,7 +89,7 @@ export default function Projects() {
             </div>
             <div className='md:w-2/3 w-full h-full bg-black p-7 rounded-2xl'>
                 <h1 className='text-4xl font-semibold py-7'>Check Out My Latest <span className='text-blue-500'>Projects</span></h1>
-                <p className='text-slate-400 font-normal text-lg'>I'm here to help if you're searching for a product designer to bring your idea to life or a design partner to help take your business to the next level.</p>
+                <p className='text-slate-400 font-normal text-lg'>I'm here to help if you're searching for a Web Developer to bring your idea to life or a design partner to help take your business to the next level.</p>
                 <div className='form-container bg-slate-900 mt-10 h-full md:p-7 p-3 rounded-xl flex flex-col'>
                     {projects.map(({id, title, subTitle, img, link})=>(
                         <div className='pro-container mb-10' key={id}>
