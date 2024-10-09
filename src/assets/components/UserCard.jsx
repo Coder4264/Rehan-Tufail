@@ -22,7 +22,11 @@ export default function UserCard() {
 
         <div className="social-icons flex gap-3">
               <div className="facebook w-9 h-9 rounded-lg bg-slate-900 p-1 flex items-center justify-center cursor-pointer">
+                <a target='_blank' href="https://web.facebook.com/profile.php?id=100005514227387">
                 <img className='invert w-7' src="https://cdn-icons-png.flaticon.com/128/14064/14064490.png" alt="" />
+
+                </a>
+                
               </div>
               <div className="pinterest w-9 h-9 rounded-lg bg-slate-900 p-1 flex items-center justify-center cursor-pointer">
                 <img className='invert w-7' src="https://cdn-icons-png.flaticon.com/128/2175/2175205.png" alt="" />
@@ -31,7 +35,8 @@ export default function UserCard() {
                 <img className='invert w-7' src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png" alt="" />
               </div>
               <div className="youtube w-9 h-9 rounded-lg bg-slate-900 p-1 flex items-center justify-center cursor-pointer">
-                <img className='invert w-7' src="https://cdn-icons-png.flaticon.com/128/1384/1384028.png" alt="" />
+                <a href="https://www.youtube.com/@webartificer1" target='_blank'>
+                <img className='invert w-7' src="https://cdn-icons-png.flaticon.com/128/1384/1384028.png" alt="" /></a>
               </div>
             </div>
     </div>
