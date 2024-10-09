@@ -81,6 +81,20 @@ export default function Projects() {
             img : "/workout.png",
             link : "https://alpha-workout.netlify.app/"
         },
+        {
+            id : 12,
+            title : "Cheezious Clone",
+            subTitle : "Reactjs, TailwindCSS",
+            img : "/cheezious-clone.png",
+            link : "https://cheezious-clone.vercel.app/"
+        },
+        {
+            id : 13,
+            title : "Fortune Wheel Game",
+            subTitle : "Reactjs, TailwindCSS",
+            img : "/fortune-wheel.png",
+            link : "https://lucky-spinner.netlify.app/"
+        },
     ]
     return (
         <div className='text-white font-bold md:w-11/12 m-3 md:m-auto flex md:flex-row flex-col justify-between gap-5'>

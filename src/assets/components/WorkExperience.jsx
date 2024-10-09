@@ -6,51 +6,51 @@ export default function WorkExperience() {
     const experience = [
         {
             "id" : 1,
-            "startYear" : 2018,
-            "endYear" : 2018,
-            "company" : "Google Inc.",
-            "designation" : "Senior Software Engineer",
-            "img" : "https://cdn-icons-png.flaticon.com/128/300/300221.png"
+            "startYear" : 2021,
+            "endYear" : "Current",
+            "company" : "Fiver.",
+            "designation" : "Frontend Web Developer",
+            "img" : "/fiver.png"
         },
         {
             "id" : 2,
-            "startYear" : 2018,
-            "endYear" : 2018,
-            "company" : "Google Inc.",
-            "designation" : "Senior Software Engineer",
-            "img" : "https://cdn-icons-png.flaticon.com/128/300/300221.png"
+            "startYear" : 2021,
+            "endYear" : "Current",
+            "company" : "Freelancer.",
+            "designation" : "Frontend Web Developer",
+            "img" : "/freelancer.png"
         },
         {
             "id" : 3,
-            "startYear" : 2018,
-            "endYear" : 2018,
-            "company" : "Google Inc.",
-            "designation" : "Senior Software Engineer",
-            "img" : "https://cdn-icons-png.flaticon.com/128/300/300221.png"
+            "startYear" : 2022,
+            "endYear" : "Current",
+            "company" : "Upwork.",
+            "designation" : "Frontend Web Developer",
+            "img" : "/upwork.png"
         },
         {
             "id" : 4,
-            "startYear" : 2018,
-            "endYear" : 2018,
-            "company" : "Google Inc.",
-            "designation" : "Senior Software Engineer",
-            "img" : "https://cdn-icons-png.flaticon.com/128/300/300221.png"
+            "startYear" : 2022,
+            "endYear" : "Current",
+            "company" : "Theme Forest",
+            "designation" : "Websites Theme Developer",
+            "img" : "/themeforest.jpg"
         },
         {
             "id" : 5,
-            "startYear" : 2018,
-            "endYear" : 2018,
-            "company" : "Google Inc.",
-            "designation" : "Senior Software Engineer",
-            "img" : "https://cdn-icons-png.flaticon.com/128/300/300221.png"
+            "startYear" : 2022,
+            "endYear" : "Current",
+            "company" : "Template Monster.",
+            "designation" : "Websites Theme Developer",
+            "img" : "template-monster.png"
         },
         {
             "id" : 6,
-            "startYear" : 2018,
-            "endYear" : 2018,
-            "company" : "Google Inc.",
-            "designation" : "Senior Software Engineer",
-            "img" : "https://cdn-icons-png.flaticon.com/128/300/300221.png"
+            "startYear" : 2023,
+            "endYear" : "Current",
+            "company" : "Web Artificer",
+            "designation" : "Frontend Web Developer",
+            "img" : "/web-artificer.jpg"
         }
 
     ]
@@ -65,12 +65,12 @@ export default function WorkExperience() {
 
             
         <div className='md:h-64' >
-        <marquee className="h-64 rounded marquee p-2" behavior="" onMouseOver={(e) => e.target.stop()} onMouseOut={(e) => e.target.start()} scrolldelay="0" scrollamount="3"  direction="up" >
+        <marquee className="h-64 rounded marquee p-2" behavior="" onMouseOver={(e) => e.target.stop()} onMouseOut={(e) => e.target.start()} scrolldelay="0" scrollamount="2"  direction="up" >
         {experience.map(({id, startYear, endYear, company, designation, img})=>(
             <div className='flex items-center justify-between mb-5 key={id}' >
                 <h3 className='text-sm text-white w-1/3 '>{startYear}-{endYear}</h3>
                 <div className='text-xl text-white flex items-center gap-2 w-2/3'>
-                    <img className='w-7' src={img} alt="" />
+                    <img className='w-7 h-7 rounded-full' src={img} alt="" />
                     <div className='flex flex-col justify-between'>
                         <h3 className="job-title text-sm font-bold">{company}</h3>
                         <h3 className="job-role text-xs text-slate-300">{designation}</h3>

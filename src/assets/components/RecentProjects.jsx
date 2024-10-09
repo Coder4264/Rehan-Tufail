@@ -7,10 +7,13 @@ export default function RecentProjects() {
             <div className='projects-container'>
                 <div className='project-header flex md:flex-row flex-col md:items-center md:justify-between md:mb-0 mb-10'>
                     <h2 className='text-3xl text-white font-bold p-2  inline'>Recent Projects</h2>
-                    <Link to="/Projects">
-                    <p className='flex items-center justify-end gap-2 text-blue-500 text-md md:self-center self-end'>All Projects  <img className='w-4 h-4 ' src="https://cdn-icons-png.flaticon.com/128/758/758811.png" alt="" /></p>
-                </Link>
-                    </div>
+                    <Link className='' to="/Projects">
+                        <p className='flex items-center justify-end gap-2 text-blue-500 text-md md:self-center self-end'>
+                            All Projects  
+                            <img className='w-4 h-4 ' src="https://cdn-icons-png.flaticon.com/128/758/758811.png" alt="" />
+                        </p>
+                    </Link>
+                </div>
 
                 <div className='flex items-center justify-between flex-col gap-5'>
                     <div className="class-1-project bg-slate-900 rounded-2xl h-72 hover:scale-110 duration-700 hover:bg-black">
@@ -22,8 +25,6 @@ export default function RecentProjects() {
                         </div>
                     </div>
 
-
-
                     <div className="class-2-project bg-slate-900 rounded-2xl h-72 hover:scale-110 duration-700 hover:bg-black">
                         <div className="main relative p-6 pb-0">
                             <img className='h-60 w-full' src="https://marveltheme.com/bentofolio/wp-content/uploads/2024/05/project-2.png" alt="" />
@@ -33,7 +34,6 @@ export default function RecentProjects() {
                         </div>
                     </div>
                 </div>
-
 
             </div>
         </div>

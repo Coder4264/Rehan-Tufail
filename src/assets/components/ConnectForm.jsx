@@ -33,7 +33,7 @@ export default function ConnectForm() {
             </div>
             <div className='md:w-2/3 w-full h-full bg-black p-7 rounded-2xl'>
                 <h1 className='text-4xl font-semibold py-7'>Let's 👋 <span className='text-blue-500'>Work</span> Together</h1>
-                <p className='text-slate-400 font-normal text-lg'>I'm here to help if you're searching for a product designer to bring your idea to life or a design partner to help take your business to the next level.</p>
+                <p className='text-slate-400 font-normal text-lg'>I'm here to help if you're searching for a Web Developer to bring your idea to life or a design to give it a real life touch. I can you help take your business to the next level.</p>
                 <div className='form-container bg-slate-900 mt-20 h-full md:p-7 p-3 rounded-xl flex flex-col'>
                     <div className='flex md:flex-row flex-col justify-around items-center font-normal md:mb-10'>
                         <input 
@@ -79,7 +79,7 @@ export default function ConnectForm() {
                     </div>
                     <div className='flex md:flex-row flex-col justify-center items-center font-normal md:mb-10 w-full h-full'>
                         <textarea 
-                            className='md:w-11/12 w-full rounded-2xl outline-none bg-black border-2 border-slate-800 px-5 py-3 md:mb-0 mb-3' 
+                            className='md:w-11/12 w-full rounded-2xl outline-none bg-black border-2 border-slate-800 px-5 py-3 md:mb-0 mb-3 resize-none' 
                             name="textarea" 
                             id="textarea" 
                             rows={10} 
